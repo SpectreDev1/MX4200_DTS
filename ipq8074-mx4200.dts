@@ -5,12 +5,12 @@
 	#address-cells = <0x02>;
 	#size-cells = <0x02>;
 	boot_version = <0x43524d2d 0x424f4f54 0x2e42462e 0x332e332e 0x312d3030 0x3136330a>;
-	compatible = "qcom,ipq807x-oak03\0qcom,ipq807x";
+	compatible = "linksys,mx42002", "qcom,ipq8074";
 	cpu_type = <0x8f010000>;
 	flash_type = <0x2000000>;
 	interrupt-parent = <0x01>;
 	machid = <0xd000108>;
-	model = "Linksys,MX4200";
+	model = "Linksys MX4200";
 	qcom,board-id = <0x08 0x00>;
 	qcom,msm-id = <0x143 0x00>;
 	qcom,pmic-id = <0x00 0x00 0x00 0x00>;
