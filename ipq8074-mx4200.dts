@@ -10,7 +10,7 @@
 	flash_type = <0x2000000>;
 	interrupt-parent = <0x01>;
 	machid = <0xd000108>;
-	model = "Qualcomm Technologies, Inc. IPQ807x/AP-OAK03";
+	model = "Linksys,MX4200";
 	qcom,board-id = <0x08 0x00>;
 	qcom,msm-id = <0x143 0x00>;
 	qcom,pmic-id = <0x00 0x00 0x00 0x00>;
@@ -3577,7 +3577,11 @@
 					type = "critical_low";
 				};
 			};
-		};
+		};		green@1 {
+					label = "green";
+					linux,default-trigger = "none";
+					reg = <0x01>;
+				};
 
 		tsens_tz_sensor11 {
 			polling-delay = <0x00>;
