@@ -10,11 +10,8 @@
 / {
 	aliases {
 		serial0 = &blsp4_uart1;
-		led-boot = &led_system_purple;
-		led-failsafe = &led_system_red;
+		led-boot = &led_system_blue;
 		led-running = &led_system_blue;
-		led-upgrade = &led_system_green;
-		label-mac-device = &dp2;
 	};
 
 	chosen {
